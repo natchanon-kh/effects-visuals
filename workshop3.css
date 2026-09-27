@@ -1,0 +1,76 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  margin: 36px;
+}
+
+.scene {
+  width: 360px;
+  height: 280px;
+  padding: 42px;
+  background: linear-gradient(135deg, #2563eb, #14b8a6);
+  border-radius: 22px;
+}
+
+.glass-panel {
+  width: 260px;
+  padding: 26px;
+  background-color: rgba(255, 255, 255, 0.22);
+  color: white;
+  border: 1px solid rgba(255, 255, 255, 0.36);
+  border-radius: 18px;
+  box-shadow: 0 14px 34px rgba(15, 23, 42, 0.18);
+}
+
+.eyebrow {
+  margin-bottom: 8px;
+  font-size: 12px;
+  font-weight: 700;
+  opacity: 0.72;
+}
+
+h2 {
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 12px;
+  line-height: 1.6;
+}
+
+/* PAGINATION */
+.page-container {
+  display: flex;
+  justify-content: center;
+}
+
+.pagination {
+  display: inline-block;
+  margin-top: 40px;
+  padding: 16px 0;
+  border-radius: 6px;
+  height: 50px;
+  box-shadow: 5px 10px 8px 1px #888888;
+}
+
+.pagination .page {
+  text-decoration: none;
+  background-color: #94b2fd;
+  color: white;
+  padding: 12px;
+  border-radius: 50px;
+  margin: 12px;
+  font-weight: 700;
+}
+.pagination .active {
+  background-color: #1f5eff;
+}
+
+.pagination a:hover {
+  background-color: #1f5eff;
+}
