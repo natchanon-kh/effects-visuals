@@ -1,0 +1,89 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: #f1f5f9;
+  padding: 28px;
+}
+
+.profile-card {
+  text-align: center;
+  width: 280px;
+  box-shadow: 0 12px 32px rgba(15, 23, 42, 0.14);
+  background-color: white;
+  padding: 28px;
+  border-radius: 18px;
+}
+
+.avatar {
+  color: white;
+  font-size: 28px;
+  font-weight: 700;
+  width: 72px;
+  height: 72px;
+  background-color: #2563eb;
+  border-radius: 50%;
+  margin: 0 auto 16px;
+  line-height: 72px;
+}
+
+.name {
+  font-size: 22px;
+  margin-bottom: 4px;
+}
+
+.role {
+  color: #475569;
+  margin-bottom: 18px;
+}
+
+.bio {
+  margin-bottom: 22px;
+  color: #334155;
+}
+
+.badge {
+  display: inline-block;
+  background-color: #e0f2fe;
+  padding: 8px 16px;
+  color: #075985;
+  border-radius: 999px;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+/* PAGINATION */
+.page-container {
+  display: flex;
+  justify-content: center;
+}
+
+.pagination {
+  display: inline-block;
+  margin-top: 40px;
+  padding: 16px 0;
+  border-radius: 6px;
+  height: 50px;
+  box-shadow: 5px 10px 8px 1px #888888;
+}
+
+.pagination .page {
+  text-decoration: none;
+  background-color: #94b2fd;
+  color: white;
+  padding: 12px;
+  border-radius: 50px;
+  margin: 12px;
+  font-weight: 700;
+}
+.pagination .active {
+  background-color: #1f5eff;
+}
+
+.pagination a:hover {
+  background-color: #1f5eff;
+}
